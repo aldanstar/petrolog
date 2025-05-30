@@ -625,20 +625,20 @@ def folder_processing(folder_path:str, ranges:pd.DataFrame)->pd.DataFrame:
 
 
 
-# Экспортируем ureg для доступа извне
-__all__ = [
-    'class_dict_to_array',
-    'get_class',
-    'unprotect_files',
-    'files_search',
-    'files_scan',
-    '_unit_by_str',
-    '_BettersizerST_parser',
-    '_BeckmanCoulterLS13320XR_parser',
-    'read',
-    'get_ranges',
-    'overlap',
-    'distribution_by_ranges',
-    'folder_processing',
-    'ureg'
-]
+# # Экспортируем ureg для доступа извне
+# __all__ = [
+#     'class_dict_to_array',
+#     'get_class',
+#     'unprotect_files',
+#     'files_search',
+#     'files_scan',
+#     '_unit_by_str',
+#     '_BettersizerST_parser',
+#     '_BeckmanCoulterLS13320XR_parser',
+#     'read',
+#     'get_ranges',
+#     'overlap',
+#     'distribution_by_ranges',
+#     'folder_processing',
+#     'ureg'
+# ]
