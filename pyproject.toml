@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "petrolog"
+version = "0.1.0"
+description = "Petrology data processing toolkit"
+readme = "README.md"
+authors = [{ name = "Your Name", email = "your.email@example.com" }]
+license = { text = "Apache-2.0" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "import_ipynb",
+    "matplotlib",
+    "pandas",
+    "numpy",
+    "xlsxwriter",
+    "openpyxl",
+    "pint",
+    "pint-pandas"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/aldanstar/petrolog"
+"Bug Tracker" = "https://github.com/aldanstar/petrolog/issues"
