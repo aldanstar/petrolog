@@ -602,7 +602,7 @@ def distribution_by_ranges(df:pd.DataFrame, ranges:pd.DataFrame)->pd.DataFrame:
 
 
 # @title Пакетна обработка с переопределением диапазонов
-def folder_frocessing(folder_path:str, ranges:pd.DataFrame)->pd.DataFrame:
+def folder_processing(folder_path:str, ranges:pd.DataFrame)->pd.DataFrame:
     result_df = None
     metadata = None
     data = dict()
