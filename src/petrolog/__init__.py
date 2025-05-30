@@ -42,11 +42,47 @@
 #     'ureg'
 # ]
 
-from import_ipynb import import_file
-from . import petrolog_note
+# from import_ipynb import import_file
+# from . import petrolog_note
+#
+# # Импорт только функций из блокнота
+# from .petrolog_note import (
+#     class_dict_to_array,
+#     get_class,
+#     unprotect_files,
+#     files_search,
+#     files_scan,
+#     _unit_by_str,
+#     _BettersizerST_parser,
+#     _BeckmanCoulterLS13320XR_parser,
+#     read,
+#     get_ranges,
+#     overlap,
+#     distribution_by_ranges,
+#     folder_processing
+# )
+#
+# # Импорт ureg из самого блокнота
+# from .petrolog_note import ureg
+#
+# # Опционально: экспорт функций для прямого доступа
+# __all__ = [
+#     'class_dict_to_array',
+#     'get_class',
+#     'unprotect_files',
+#     'files_search',
+#     'files_scan',
+#     'read',
+#     'get_ranges',
+#     'overlap',
+#     'distribution_by_ranges',
+#     'folder_processing',
+#     'ureg'
+# ]
 
-# Импорт только функций из блокнота
-from .petrolog_note import (
+
+# Импорт функций из основного модуля
+from .petrolog_module import (
     class_dict_to_array,
     get_class,
     unprotect_files,
@@ -59,13 +95,11 @@ from .petrolog_note import (
     get_ranges,
     overlap,
     distribution_by_ranges,
-    folder_processing
+    folder_processing,
+    ureg  # Импортируем ureg напрямую
 )
 
-# Импорт ureg из самого блокнота
-from .petrolog_note import ureg
-
-# Опционально: экспорт функций для прямого доступа
+# Экспорт основных функций
 __all__ = [
     'class_dict_to_array',
     'get_class',

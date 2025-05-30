@@ -1,4 +1,3 @@
-import_ipynb
 matplotlib
 pandas
 numpy
